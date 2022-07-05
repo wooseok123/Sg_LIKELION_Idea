@@ -24,3 +24,4 @@ getHtml()
     return data;
   })
   .then((res) => console.log(res));
+  

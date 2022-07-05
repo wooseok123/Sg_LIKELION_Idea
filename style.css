@@ -34,6 +34,8 @@ nav {
 
 .main_container {
   margin: 0px 10vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .main_h1 {
@@ -146,4 +148,40 @@ nav {
 
 .item:hover {
   background-color: lightgray;
+}
+
+
+.details {
+  flex-wrap: wrap;
+}
+
+.d-item {
+  width: 20vw;
+  margin: 3vw;
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 15vh;
+  border: 1px solid grey;
+}
+
+.sogang {
+  display: none;
+  flex-wrap: wrap;
+}
+
+.kakao {
+  display: none;
+}
+
+.non-click {
+  background-color: white;
+}
+
+.clicked {
+  background-color: #8497b0;
 }

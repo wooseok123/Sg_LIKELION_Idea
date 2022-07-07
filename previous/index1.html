@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="container">
+      <header>
+        <nav>
+          <img class="nav_logo" src="src/logo.png" />
+          <div class="header_nav">
+            <p>Name이란?!</p>
+            <p>사용법</p>
+            <p>콜렉션</p>
+            <p>둘러보기</p>
+            <p>로그인</p>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="main_container">
+          <h1 class="main_h1">Make Your Own Automation</h1>
+          <div class="main_select_container">
+            <div class="main_drop left"></div>
+            <div class="main_drop right">&plus;</div>
+          </div>
+          <div class="main_search">
+            <div class="search_bar">
+              <input
+                class="search_input"
+                type="text"
+                placeholder="서비스명을 입력하세요"
+                onkeyup="filter()"
+              />
+              <span class="icon"> <i class="fa fa-search"></i></span>
+            </div>
+            <div class="search_suggest">
+              <div class="item" data-img="src/sg.png">
+                <span class="icon"><img src="src/sg.png" alt="" /></span>
+                <span class="name" data-name="sogang">서강대학교</span>
+              </div>
+              <div class="item" data-img="src/kakao.png">
+                <span class="icon"><img src="src/kakao.png" /></span>
+                <span class="name">kakao</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+              <div class="item">
+                <span class="icon">A</span>
+                <span class="name">apple</span>
+              </div>
+            </div>
+          </div>
+          <div class="details">
+            <section class="sogang">
+              <div class="d-item non-click">서강대학교 일반공지</div>
+              <div class="d-item non-click">서강대학교 장학공지</div>
+              <div class="d-item non-click">서강대학교 학사공지</div>
+              <div class="d-item non-click">경영학부 공지사항</div>
+              <div class="d-item non-click">취업지원팀 공지사항</div>
+              <div class="d-item non-click">
+                원하는 세부 기능을<br />
+                입력해주세요
+              </div>
+            </section>
+            <section class="kakao">
+              <div class="d-item non-click">나에게 보내기</div>
+              <div class="d-item non-click">단체 채팅방에 보내기</div>
+              <div class="d-item non-click">
+                원하는 세부 기능을<br />
+                입력해주세요
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer></footer>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+.select_Noti {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_Noti {
+    width: 50vw;
+    height: 5vh;
+    margin: 0px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: orange;
+    line-height: 5vh;
+    font-size: 20px;
+}
+
+.right_Noti {
+    width: 50vw;
+    height: 5vh;
+    margin: 0px;
+    border: 1px solid grey;
+    border-left: 0px;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 20px;
+    color: grey;
+}
+
+.update_date {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: rgb(164, 164, 164);
+    font-size: 14px;
+}
+
+.All_Noti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Noti {
+    width: 40vw;
+    height: 40vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.title_circle {
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+
+.Noti_item {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list_circle {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+.list_circle_save {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: orange;
+}
+
+.Save_Noti {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.non-click {
+    background-color: white;
+}
+
+.clicked {
+    background-color: orange;
+}
